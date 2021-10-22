@@ -6,7 +6,9 @@ type Props = {
   title: string
 }
 
-export default function Home({ title = 'React Avançado ou NextJS na Prática' }: Props) {
+export default function Home({
+  title = 'React Avançado ou NextJS na Prática'
+}: Props) {
   return (
     <div className={styles.container}>
       <Head>
